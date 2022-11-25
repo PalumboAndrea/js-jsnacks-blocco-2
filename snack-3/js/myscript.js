@@ -10,19 +10,19 @@ Calcola la somma, la media e il valore massimo dei primi 10 numeri di un array.
 
 */
 
-const lista = [1, 2, 3, 6, 60, 70, 15, 20, 25, 40, 80];
+const lista = [1, 99, 3, 120, 60, 70, 15, 20, 95, 40, 80];
 
 let sum = 0;
 
 let media = 10
 
-let maggiore
+let maggiore = 0;
 
 for (i=0; i<media; i++) {
   sum += lista[i];
   
 
-  if (lista[i+1] < lista[i]){
+  if (maggiore < lista[i] ){
     maggiore = lista[i];
   }
 
