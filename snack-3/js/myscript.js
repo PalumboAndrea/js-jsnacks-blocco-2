@@ -12,13 +12,15 @@ const lista = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
 let sum = 0;
 
-for (i=0; i<10; i++) {
+let media = 10
+
+for (i=0; i<media; i++) {
   sum += lista[i];
 }
 
 console.log(sum);
 
-console.log(sum / i);
+console.log(sum / media);
 
 
 
