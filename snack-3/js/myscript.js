@@ -10,7 +10,7 @@ Calcola la somma, la media e il valore massimo dei primi 10 numeri di un array.
 
 */
 
-const lista = [1, 2, 3, 6, 60, 70, 15, 20, 25, 40, 50];
+const lista = [1, 2, 3, 6, 60, 70, 15, 20, 25, 40, 80];
 
 let sum = 0;
 
